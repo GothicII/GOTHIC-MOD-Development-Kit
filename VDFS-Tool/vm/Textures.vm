@@ -1,0 +1,13 @@
+[BEGINVDF]
+Comment="Gothic - Texture Data - %%D%%N (C) 1999 Piranha Bytes"
+BaseDir="F:\Gothic"
+VDFName="F:\Gothic\Data\ModVdf\Textures.mod"
+[FILES]
+Data\Textures\*.* -r
+[EXCLUDE]
+Data\Textures\Fonts\*.* -r
+*.lnk -r
+*.bak -r
+*.zip -r
+[INCLUDE]
+[ENDVDF]

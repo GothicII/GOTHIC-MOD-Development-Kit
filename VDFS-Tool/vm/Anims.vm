@@ -1,0 +1,12 @@
+[BEGINVDF]
+Comment="Gothic - Anim Data - %%D%%N (C) 1999 Piranha Bytes"
+BaseDir="F:\Gothic"
+VDFName="F:\Gothic\Data\ModVdf\Anims.mod"
+[FILES]
+Data\Anims\*.* -r
+[EXCLUDE]
+*.lnk -r
+*.bak -r
+*.zip -r
+[INCLUDE]
+[ENDVDF]

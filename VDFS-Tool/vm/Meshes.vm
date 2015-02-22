@@ -1,0 +1,12 @@
+[BEGINVDF]
+Comment="Gothic - Mesh Data - %%D%%N (C) 1999 Piranha Bytes"
+BaseDir="F:\Gothic"
+VDFName="F:\Gothic\Data\ModVdf\Meshes.mod"
+[FILES]
+Data\Meshes\*.* -r
+[EXCLUDE]
+*.lnk -r
+*.bak -r
+*.zip -r
+[INCLUDE]
+[ENDVDF]

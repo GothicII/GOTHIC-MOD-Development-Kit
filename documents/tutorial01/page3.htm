@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<title>SPACER TUTORIAL PART I</title>
+</head>
+
+<body bgcolor="black" text="#DCCAB1" link="olive" vlink="#DCCAB1" alink="#DCCAB1">
+<table align="center" border="0" width="261">
+    <tr>
+        <td width="255"><p class=MsoNormal style='text-align:justify' align="center"><span style="
+mso-bidi-font-size:12.0pt"><font size="5">3. Ein einfaches Event</font></span></p>
+
+        </td>
+    </tr>
+</table>
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt'>Nun wird es etwas komplizierter, denn wir bauen ein
+einstufiges <font color="#00CCCC">Event.</font> Dazu brauchen wir zuerst einen <font color="#00CCCC">Hebel.</font> Wir finden ihn rechts
+im <font color="#00CCCC">Objects-Fenster.</font> Wenn <i><font color="#00CCCC">Create</font></i> dort noch inaktiv ist, aktiviere ihn mit
+<i><font color="#00CCCC">Activate</font></i><font color="#00CCCC">.</font> Dann muss aus dem erscheinenden Tree <i><font color="#00CCCC">oCVob (abstract</font>)</i>,
+dann <i><font color="#00CCCC">oCMOB</font> </i>und dann <i><font color="#00CCCC">oCMOBInter</font> </i>gew&auml;hlt werden. Dann ein
+Rechtsklick ins Editorfenster und <i><font color="#00CCCC">Insert MOBInter</font></i>. Wir haben nun ein
+leeres Mob zur Interaktion. Zun&auml;chst braucht er ein <font color="#00CCCC">Visual.</font> Das finden wir
+unter /Work/Data/Anims/MDS_Mobsi/LEVER_1_OC.MDS.<br></span><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt'>Nach Dr&uuml;cken von <i><font color="#00CCCC">apply</font> </i>erscheint es. Der
+Hebel muss jetzt so bewegt werden, dass er wie an dem Klotz angebracht
+aussieht.<span style="mso-spacerun: yes">&nbsp; </span>Die <font color="#00CCCC">BoundingBox</font> (der rote
+Kasten drumherum) muss genau bis zum Boden reichen. Jetzt m&uuml;ssen die
+Eigenschaften des Mobs noch eingestellt werden:<font color="#00CCCC"> </font><i><font color="#00CCCC">cdDyn : TRUE</font> </i>und <i><font color="#00CCCC">Rewind
+: TRUE</font></i>, mit <i><font color="#00CCCC">apply</font> </i>abschlie&szlig;en.<br><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt'>Dieser Hebel kann jetzt schon bewegt werden, nur
+passiert nat&uuml;rlich noch nichts.</span></span></p>
+
+<table align="center" border="0" width="100">
+    <tr>
+        <td><p class=MsoNormal style='text-align:justify' align="center"><a href="images/event_1_05.jpg" target="_blank" title="Click to enlarge"><img src="images/event_1_05_mini.jpg" width="100" height="75" border="0"></a></p>
+
+        </td>
+    </tr>
+</table>
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt'>Der Hebel muss jetzt irgendwas <font color="#00CCCC">triggern.</font> Es gibt
+wirklich sehr viele M&ouml;glichkeiten. Wir werden jetzt ein Skript triggern. Dazu
+setzen wir erst mal den Trigger und verbinden ihn mit dem Hebel. Und zwar ist
+dieser Trigger auch in dem <i><font color="#00CCCC">Create</font></i><font color="#00CCCC"> Tree</font> enthalten, unter <i><font color="#00CCCC">zCTriggerBase
+/ zCTrigger / oCTriggerScript</font></i>. Dieser wird wieder mit der rechten Maustaste
+ins Editorfenster gesetzt. In den Eigenschaften dieses Objekts gibt es den
+Parameter <i><font color="#00CCCC">scriptFunc</font></i><font color="#00CCCC">.</font> Dort wird der Name des zu triggernden Skripts
+eingesetzt. In unserem Beispiel lautet der Name <font color="#00CCCC">EVT_MOD_01.</font> Au&szlig;erdem wird der
+Parameter <i><font color="#00CCCC">vobName</font> </i>mit <font color="#00CCCC">TRIGGERSCRIPT</font> gef&uuml;llt. Das ist jetzt der Name des
+Triggers. Alle Eingaben im Objects-Fenster m&uuml;ssen &uuml;brigens mit <i><font color="#00CCCC">Apply</font></i>
+abgeschlossen werden.<br>Nun wird der Hebel mit dem Triggerscript verbunden.
+Dazu geben wir in den Eigenschaften des Hebels bei dem Parameter <i><font color="#00CCCC">triggerTarget</font>
+</i>den Namen des Triggers, also TRIGGERSCRIPT, ein. </span></p>
+
+<table align="center" border="0" width="100">
+    <tr>
+        <td><p class=MsoNormal style='text-align:justify' align="center"><a href="images/scriptfunc_06.jpg" target="_blank" title="Click to enlarge"><img src="images/scriptfunc_06_mini.jpg" width="100" height="75" border="0"></a></p>
+
+        </td>
+    </tr>
+</table>
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+mso-bidi-font-size:12.0pt'>Jetzt wird der Level gespeichert, also <i><font color="#00CCCC">SaveZen</font></i><font color="#00CCCC">.</font></span></p>
+
+<div align="right">
+    <table border="0" width="100">
+        <tr>
+            <td>
+                <p align="right" class="MsoNormal" style="text-align:justify;"><a href="page4.htm" target="_self">weiter 
+- &gt;</a></p>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+
+</html>
